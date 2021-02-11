@@ -25,13 +25,6 @@ p {
   margin: 20px 0;
 }
 
-body header {
-  align-items: flex-start;
-  width: 68vw;
-  margin: 100px auto;
- 
-}
-
 nav, header {
   display: flex;
   align-items: center;
@@ -52,6 +45,21 @@ nav ul {
 
 nav li:nth-child(4) a {
   color: #00f482;
+}
+
+body header {
+  align-items: flex-start;
+  width: 80vw;
+  margin: 100px auto;
+ 
+}
+
+header img {
+  width: 65%;
+}
+
+#music {
+  padding-right: 112px;
 }
 
 button {
@@ -76,13 +84,4 @@ footer {
 
 footer p {
   margin: 10px 0;
-}
-
-header img {
-  width: 65%;
-}
-
-#music {
-  padding-right: 112px;
-  width: 60%;
 }
