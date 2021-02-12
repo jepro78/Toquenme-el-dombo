@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
+@import url(header.css);
+@import url(footer.css);
 
 body {
   background-color: #020021;
@@ -25,43 +27,6 @@ p {
   margin: 20px 0;
 }
 
-nav, header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-nav img {
-  width: 170px;
-  margin: 40px 0;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  width: 415px;
-  font-weight: 700;
-}
-
-nav li:nth-child(4) a {
-  color: #00f482;
-}
-
-body header {
-  align-items: flex-start;
-  width: 80vw;
-  margin: 100px auto;
- 
-}
-
-header img {
-  width: 65%;
-}
-
-#music {
-  padding-right: 112px;
-}
-
 button {
   background-color: #00f482;
   font-weight: 700;
@@ -76,12 +41,3 @@ button {
   padding: 10px 20px;
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-footer p {
-  margin: 10px 0;
-}
