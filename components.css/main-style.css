@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
 @import url(header.css);
 @import url(footer.css);
+@import url(responsive-phone.css);
 
 body {
   background-color: #020021;
@@ -15,11 +16,26 @@ body * {
   font-family: "Nunito Sans", sans-serif;
 }
 
+body main {
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+main img{
+  width: 100%;
+  display:flex;
+}
+
+#music {
+  width: 400px;
+}
+
 h1 {
   margin-top: 30px;
   Font-size: 55px;
   line-height: 1;
-
 }
 
 p {

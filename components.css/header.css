@@ -4,7 +4,7 @@ nav, header {
     justify-content: space-around;
   }
   
-  nav img {
+  header img {
     width: 170px;
     margin: 40px 0;
   }
@@ -20,17 +20,4 @@ nav, header {
     color: #00f482;
   }
   
-  body header {
-    align-items: flex-start;
-    width: 80vw;
-    margin: 100px auto;
-   
-  }
   
-  header img {
-    width: 65%;
-  }
-  
-  #music {
-    padding-right: 112px;
-  }
