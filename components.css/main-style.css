@@ -53,6 +53,80 @@ button {
   padding: 10px 50px;
 }
 
+.dombo {
+  margin: 0 auto;
+  position: relative;
+}
+
+.dombo-shadow {
+  background: radial-gradient(circle, rgb(255 255 255 / 35%) 26%, rgba(0,212,-35,0) 70%);
+  width: 83%;
+  height: 117%;
+  position: absolute;
+  top: -13%;
+  left: 6%;
+  z-index: -50;
+}
+
+.btn-dombo {
+  padding: 8%;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.dombo .btn-dombo-xl {
+  padding: 11%;
+}
+
+.btn-dombo-1st, .btn-dombo-3rd {
+  top: 5%;
+}
+
+.btn-dombo-1st {
+  left: 2%;
+}
+
+.btn-dombo-2nd, .btn-dombo-4th {
+  top: 28%;
+}
+
+.btn-dombo-2nd {
+  left: 9%;
+}
+
+.btn-dombo-3rd {
+  right: 2%;
+}
+
+.btn-dombo-4th {
+  right: 10%;
+}
+
+.btn-dombo-5th, .btn-dombo-6th {
+  top: 14%;
+}
+
+.btn-dombo-5th {
+  left: 27%;
+}
+
+.btn-dombo-6th {
+  right: 27%;
+}
+
+.btn-dombo-7th, .btn-dombo-8th {
+  top: 52%;
+}
+
+.btn-dombo-7th {
+  left: 15%;
+}
+
+.btn-dombo-8th {
+  right: 15%;
+}
+
 .btn-buy {
   background-color: white;
   color: black;

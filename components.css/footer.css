@@ -3,6 +3,16 @@ footer {
     align-items: center;
     flex-direction: column;
   }
+
+  footer .hit-button {
+    position: relative;
+  }
+
+  footer .btn-dombo-9th {
+    padding: 41%;
+    left: 11%;
+    top: 30%;
+  }
   
   footer p {
     margin: 10px 0;
