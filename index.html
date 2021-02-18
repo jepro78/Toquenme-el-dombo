@@ -11,13 +11,24 @@
 
     <header>
     <img src="img/dombo-logo.png" alt="Hit the DOMBO Logo" />
-    <nav>
+    <nav class="desktop-menu">
       <ul>
         <li><a href="#">Premium</a></li>
         <li><a href="#">Help</a></li>
         <li><a href="#">Download</a></li>
         <li><a href="#">Sign up</a></li>
         <li>|</li>
+        <li><a href="#">Log in</a></li>
+      </ul>
+    </nav>
+    <nav class="mobile-menu">
+      <input type="checkbox" id="btn-mobile">
+      <label for="btn-mobile"><i class="fas fa-bars"></i></label>
+      <ul class="activo">
+        <li><a href="#">Premium</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Sign up</a></li>
         <li><a href="#">Log in</a></li>
       </ul>
     </nav>
@@ -61,6 +72,8 @@
     <audio id="sound2" src="audio/bombo.wav"></audio>
     <audio id="sound3" src="audio/crash.wav"></audio>
     <audio id="sound4" src="audio/redoblante.wav"></audio>
+
+    <script src="https://use.fontawesome.com/60b15fd9c1.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-nav, header {
+.desktop-menu, header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -9,18 +9,18 @@ nav, header {
     margin: 40px 0;
   }
   
-  nav ul {
+  .desktop-menu ul {
     display: flex;
     justify-content: space-around;
     width: 415px;
     font-weight: 700;
   }
   
-  nav li:nth-child(4) a {
+  .desktop-menu li:nth-child(4) a {
     color: #00f482;
   }
 
-  ul li a::after {
+  .desktop-menu li a::after {
     content: '';
     display: block;
     border-bottom: 1px solid #fff;
@@ -28,10 +28,23 @@ nav, header {
     transition: .8s;
   }
 
-  ul li a:hover::after {
+  .desktop-menu li a:hover::after {
     transform: scaleX(1);
   }
   
-  ul li:nth-child(4) a::after {
+  .desktop-menu li:nth-child(4) a::after {
     border-color: #00f482;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu i {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 26px;
+  }
+  .mobile-menu input{
+    display: none;
   }
