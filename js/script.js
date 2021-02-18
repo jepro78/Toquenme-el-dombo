@@ -8,6 +8,8 @@ let dombobtn2 = document.querySelector(".dombo2");
 let dombobtn3 = document.querySelector(".dombo3");
 let dombobtn4 = document.querySelector(".dombo4");
 
+let dombocombo = document.querySelector(".btn-dombo-9th");
+
 dombobtn1.addEventListener("click", () => {
     onsound1.load();
     onsound1.play();
@@ -26,4 +28,8 @@ dombobtn3.addEventListener("click", () => {
 dombobtn4.addEventListener("click", () => {
     onsound4.load();
     onsound4.play();
+});
+
+dombocombo.addEventListener("click", () => {
+    onsound1.play() + onsound2.play(); + onsound3.play(); + onsound4.play();
 });

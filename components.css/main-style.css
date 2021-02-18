@@ -54,6 +54,13 @@ button {
   outline: -webkit-focus-ring-color auto 0px;
 }
 
+#music button:hover, .footer-text button:hover {
+  background-color: transparent;
+  color: #00f482;
+  border: 1px solid #00f482;
+  transition: 1s;
+}
+
 .dombo {
   margin: 0 auto;
   position: relative;
@@ -74,6 +81,7 @@ button {
   border-radius: 50%;
   position: absolute;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .dombo .btn-dombo-xl {

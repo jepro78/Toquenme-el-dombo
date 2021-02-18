@@ -19,5 +19,19 @@ nav, header {
   nav li:nth-child(4) a {
     color: #00f482;
   }
+
+  ul li a::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #fff;
+    transform: scaleX(0);
+    transition: .8s;
+  }
+
+  ul li a:hover::after {
+    transform: scaleX(1);
+  }
   
-  
+  ul li:nth-child(4) a::after {
+    border-color: #00f482;
+  }
